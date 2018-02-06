@@ -1,0 +1,264 @@
+2018-02-06 11:28:42  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 11:28:42  [ com.dgserver.server.app.ServerApp:2 ]  ****************App stop**************
+2018-02-06 11:34:06  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 11:34:06  [ com.dgserver.server.app.ServerApp:1 ]  ****************App stop**************
+2018-02-06 11:34:45  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 11:34:46  [ com.dgserver.server.net.ServerManager:372 ]  PORT : 9999
+2018-02-06 12:16:42  [ org.apache.mina.filter.logging.LoggingFilter:2516305 ]  CREATED
+2018-02-06 12:16:42  [ org.apache.mina.filter.logging.LoggingFilter:2516328 ]  OPENED
+2018-02-06 12:16:46  [ org.apache.mina.filter.logging.LoggingFilter:2520816 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:16:46  [ org.apache.mina.filter.codec.ProtocolCodecFilter:2520817 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:17:24  [ org.apache.mina.filter.logging.LoggingFilter:2559036 ]  CLOSED
+2018-02-06 12:18:17  [ com.dgserver.server.app.ServerApp:2611295 ]  ****************App stop**************
+2018-02-06 12:18:22  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 12:18:22  [ com.dgserver.server.net.ServerManager:107 ]  PORT : 9999
+2018-02-06 12:18:29  [ org.apache.mina.filter.logging.LoggingFilter:6176 ]  CREATED
+2018-02-06 12:18:29  [ org.apache.mina.filter.logging.LoggingFilter:6177 ]  OPENED
+2018-02-06 12:18:30  [ org.apache.mina.filter.logging.LoggingFilter:7415 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:18:30  [ org.apache.mina.filter.codec.ProtocolCodecFilter:7416 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:18:36  [ org.apache.mina.filter.logging.LoggingFilter:13994 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:18:36  [ org.apache.mina.filter.codec.ProtocolCodecFilter:13994 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:18:37  [ org.apache.mina.filter.logging.LoggingFilter:15032 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:18:37  [ org.apache.mina.filter.codec.ProtocolCodecFilter:15032 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:22:52  [ com.dgserver.server.app.ServerApp:269996 ]  ****************App stop**************
+2018-02-06 12:22:55  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 12:22:55  [ com.dgserver.server.net.ServerManager:94 ]  PORT : 9999
+2018-02-06 12:22:59  [ com.dgserver.server.app.ServerApp:3286 ]  ****************App stop**************
+2018-02-06 12:30:03  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 12:30:03  [ com.dgserver.server.net.ServerManager:122 ]  PORT : 9999
+2018-02-06 12:30:09  [ org.apache.mina.filter.logging.LoggingFilter:5589 ]  CREATED
+2018-02-06 12:30:09  [ org.apache.mina.filter.logging.LoggingFilter:5589 ]  OPENED
+2018-02-06 12:30:10  [ org.apache.mina.filter.logging.LoggingFilter:6588 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:30:10  [ org.apache.mina.filter.codec.ProtocolCodecFilter:6589 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:32:22  [ com.dgserver.server.app.ServerApp:139319 ]  ****************App stop**************
+2018-02-06 12:32:41  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 12:32:41  [ com.dgserver.server.net.ServerManager:158 ]  PORT : 9999
+2018-02-06 12:32:46  [ org.apache.mina.filter.logging.LoggingFilter:5316 ]  CREATED
+2018-02-06 12:32:46  [ org.apache.mina.filter.logging.LoggingFilter:5316 ]  OPENED
+2018-02-06 12:32:48  [ org.apache.mina.filter.logging.LoggingFilter:7132 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:32:48  [ org.apache.mina.filter.codec.ProtocolCodecFilter:7133 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:34:33  [ com.dgserver.server.app.ServerApp:112108 ]  ****************App stop**************
+2018-02-06 12:34:46  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 12:34:46  [ com.dgserver.server.net.ServerManager:123 ]  PORT : 9999
+2018-02-06 12:34:52  [ org.apache.mina.filter.logging.LoggingFilter:6136 ]  CREATED
+2018-02-06 12:34:52  [ org.apache.mina.filter.logging.LoggingFilter:6136 ]  OPENED
+2018-02-06 12:34:56  [ org.apache.mina.filter.logging.LoggingFilter:9421 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 12:34:56  [ org.apache.mina.filter.codec.ProtocolCodecFilter:9422 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 12:35:00  [ org.apache.mina.filter.logging.LoggingFilter:13591 ]  CLOSED
+2018-02-06 13:18:02  [ com.dgserver.server.app.ServerApp:2596011 ]  ****************App stop**************
+2018-02-06 13:18:07  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:18:07  [ com.dgserver.server.net.ServerManager:112 ]  PORT : 9999
+2018-02-06 13:18:08  [ com.dgserver.server.app.ServerApp:1122 ]  ****************App stop**************
+2018-02-06 13:18:33  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:18:33  [ com.dgserver.server.net.ServerManager:125 ]  PORT : 9999
+2018-02-06 13:18:38  [ org.apache.mina.filter.logging.LoggingFilter:5264 ]  CREATED
+2018-02-06 13:18:38  [ org.apache.mina.filter.logging.LoggingFilter:5264 ]  OPENED
+2018-02-06 13:18:40  [ org.apache.mina.filter.logging.LoggingFilter:6600 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:18:40  [ org.apache.mina.filter.codec.ProtocolCodecFilter:6600 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:18:43  [ org.apache.mina.filter.logging.LoggingFilter:10218 ]  CLOSED
+2018-02-06 13:29:54  [ com.dgserver.server.app.ServerApp:681368 ]  ****************App stop**************
+2018-02-06 13:37:50  [ com.dgserver.server.app.ServerApp:1 ]  ****************App start**************
+2018-02-06 13:37:50  [ com.dgserver.server.net.ServerManager:105 ]  PORT : 9999
+2018-02-06 13:38:02  [ org.apache.mina.filter.logging.LoggingFilter:11827 ]  CREATED
+2018-02-06 13:38:02  [ org.apache.mina.filter.logging.LoggingFilter:11827 ]  OPENED
+2018-02-06 13:38:03  [ org.apache.mina.filter.logging.LoggingFilter:13698 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 01 00 00]
+2018-02-06 13:38:03  [ org.apache.mina.filter.codec.ProtocolCodecFilter:13698 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:40:11  [ com.dgserver.server.app.ServerApp:141347 ]  ****************App stop**************
+2018-02-06 13:42:12  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:42:12  [ com.dgserver.server.net.ServerManager:104 ]  PORT : 9999
+2018-02-06 13:42:28  [ org.apache.mina.filter.logging.LoggingFilter:15895 ]  CREATED
+2018-02-06 13:42:28  [ org.apache.mina.filter.logging.LoggingFilter:15897 ]  OPENED
+2018-02-06 13:42:30  [ org.apache.mina.filter.logging.LoggingFilter:18025 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:42:30  [ org.apache.mina.filter.codec.ProtocolCodecFilter:18026 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:42:30  [ org.apache.mina.filter.logging.LoggingFilter:18041 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:43:11  [ org.apache.mina.filter.logging.LoggingFilter:58828 ]  CLOSED
+2018-02-06 13:43:15  [ org.apache.mina.filter.logging.LoggingFilter:63319 ]  CREATED
+2018-02-06 13:43:15  [ org.apache.mina.filter.logging.LoggingFilter:63319 ]  OPENED
+2018-02-06 13:43:16  [ org.apache.mina.filter.logging.LoggingFilter:64304 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:43:16  [ org.apache.mina.filter.codec.ProtocolCodecFilter:64304 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:43:16  [ org.apache.mina.filter.logging.LoggingFilter:64305 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:43:26  [ org.apache.mina.filter.logging.LoggingFilter:73863 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:43:26  [ org.apache.mina.filter.codec.ProtocolCodecFilter:73863 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:43:31  [ org.apache.mina.filter.logging.LoggingFilter:79381 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:43:31  [ org.apache.mina.filter.codec.ProtocolCodecFilter:79382 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:43:34  [ org.apache.mina.filter.logging.LoggingFilter:81978 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:43:34  [ org.apache.mina.filter.codec.ProtocolCodecFilter:81979 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:43:56  [ org.apache.mina.filter.logging.LoggingFilter:104325 ]  CLOSED
+2018-02-06 13:46:31  [ org.apache.mina.filter.logging.LoggingFilter:259099 ]  CREATED
+2018-02-06 13:46:31  [ org.apache.mina.filter.logging.LoggingFilter:259100 ]  OPENED
+2018-02-06 13:46:32  [ org.apache.mina.filter.logging.LoggingFilter:259844 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:46:32  [ org.apache.mina.filter.codec.ProtocolCodecFilter:259844 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 13:46:32  [ org.apache.mina.filter.logging.LoggingFilter:259855 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:46:34  [ org.apache.mina.filter.logging.LoggingFilter:261796 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:46:34  [ org.apache.mina.filter.codec.ProtocolCodecFilter:261796 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 13:46:48  [ org.apache.mina.filter.logging.LoggingFilter:276044 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:46:48  [ org.apache.mina.filter.codec.ProtocolCodecFilter:276045 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 13:46:49  [ org.apache.mina.filter.logging.LoggingFilter:277277 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:46:49  [ org.apache.mina.filter.codec.ProtocolCodecFilter:277277 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 13:48:44  [ com.dgserver.server.app.ServerApp:392025 ]  ****************App stop**************
+2018-02-06 13:49:26  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:49:26  [ com.dgserver.server.net.ServerManager:105 ]  PORT : 9999
+2018-02-06 13:49:32  [ org.apache.mina.filter.logging.LoggingFilter:6194 ]  CREATED
+2018-02-06 13:49:32  [ org.apache.mina.filter.logging.LoggingFilter:6194 ]  OPENED
+2018-02-06 13:49:34  [ org.apache.mina.filter.logging.LoggingFilter:7590 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:49:34  [ org.apache.mina.filter.codec.ProtocolCodecFilter:7591 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:49:34  [ org.apache.mina.filter.logging.LoggingFilter:7604 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:49:37  [ org.apache.mina.filter.logging.LoggingFilter:11342 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:49:37  [ org.apache.mina.filter.codec.ProtocolCodecFilter:11342 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:50:04  [ org.apache.mina.filter.logging.LoggingFilter:38424 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:50:04  [ org.apache.mina.filter.codec.ProtocolCodecFilter:38424 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:50:06  [ org.apache.mina.filter.logging.LoggingFilter:39559 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:50:06  [ org.apache.mina.filter.codec.ProtocolCodecFilter:39559 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:50:38  [ org.apache.mina.filter.logging.LoggingFilter:72063 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=512: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:50:38  [ org.apache.mina.filter.codec.ProtocolCodecFilter:72064 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:50:38  [ org.apache.mina.filter.logging.LoggingFilter:72064 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:50:44  [ org.apache.mina.filter.logging.LoggingFilter:78034 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:50:44  [ org.apache.mina.filter.codec.ProtocolCodecFilter:78034 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:51:14  [ org.apache.mina.filter.logging.LoggingFilter:108004 ]  CLOSED
+2018-02-06 13:51:20  [ org.apache.mina.filter.logging.LoggingFilter:113962 ]  CREATED
+2018-02-06 13:51:20  [ org.apache.mina.filter.logging.LoggingFilter:113962 ]  OPENED
+2018-02-06 13:51:20  [ org.apache.mina.filter.logging.LoggingFilter:113980 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:20  [ org.apache.mina.filter.codec.ProtocolCodecFilter:113981 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:51:20  [ org.apache.mina.filter.logging.LoggingFilter:114007 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:20  [ org.apache.mina.filter.codec.ProtocolCodecFilter:114007 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:51:22  [ org.apache.mina.filter.logging.LoggingFilter:115992 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:22  [ org.apache.mina.filter.codec.ProtocolCodecFilter:115992 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:51:23  [ org.apache.mina.filter.logging.LoggingFilter:117440 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:23  [ org.apache.mina.filter.codec.ProtocolCodecFilter:117440 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:51:27  [ org.apache.mina.filter.logging.LoggingFilter:120563 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:27  [ org.apache.mina.filter.codec.ProtocolCodecFilter:120563 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:51:27  [ org.apache.mina.filter.logging.LoggingFilter:121475 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:51:27  [ org.apache.mina.filter.codec.ProtocolCodecFilter:121476 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 13:53:08  [ com.dgserver.server.app.ServerApp:221644 ]  ****************App stop**************
+2018-02-06 13:53:17  [ com.dgserver.server.app.ServerApp:1 ]  ****************App start**************
+2018-02-06 13:53:17  [ com.dgserver.server.net.ServerManager:102 ]  PORT : 9999
+2018-02-06 13:53:19  [ org.apache.mina.filter.logging.LoggingFilter:1937 ]  CREATED
+2018-02-06 13:53:19  [ org.apache.mina.filter.logging.LoggingFilter:1938 ]  OPENED
+2018-02-06 13:53:21  [ org.apache.mina.filter.logging.LoggingFilter:4116 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:53:21  [ org.apache.mina.filter.codec.ProtocolCodecFilter:4117 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:53:21  [ org.apache.mina.filter.logging.LoggingFilter:4134 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:53:23  [ org.apache.mina.filter.logging.LoggingFilter:5972 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:53:23  [ org.apache.mina.filter.codec.ProtocolCodecFilter:5972 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:53:45  [ com.dgserver.server.app.ServerApp:27896 ]  ****************App stop**************
+2018-02-06 13:53:55  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:53:55  [ com.dgserver.server.net.ServerManager:95 ]  PORT : 9999
+2018-02-06 13:54:00  [ org.apache.mina.filter.logging.LoggingFilter:4809 ]  CREATED
+2018-02-06 13:54:00  [ org.apache.mina.filter.logging.LoggingFilter:4810 ]  OPENED
+2018-02-06 13:54:00  [ org.apache.mina.filter.logging.LoggingFilter:5375 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:54:00  [ org.apache.mina.filter.codec.ProtocolCodecFilter:5375 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:54:00  [ org.apache.mina.filter.logging.LoggingFilter:5387 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:54:01  [ org.apache.mina.filter.logging.LoggingFilter:6462 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 00 00 00 01 00]
+2018-02-06 13:54:01  [ org.apache.mina.filter.codec.ProtocolCodecFilter:6463 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:54:32  [ com.dgserver.server.app.ServerApp:36824 ]  ****************App stop**************
+2018-02-06 13:54:46  [ com.dgserver.server.app.ServerApp:1 ]  ****************App start**************
+2018-02-06 13:54:46  [ com.dgserver.server.net.ServerManager:123 ]  PORT : 9999
+2018-02-06 13:54:52  [ org.apache.mina.filter.logging.LoggingFilter:6305 ]  CREATED
+2018-02-06 13:54:52  [ org.apache.mina.filter.logging.LoggingFilter:6305 ]  OPENED
+2018-02-06 13:54:53  [ org.apache.mina.filter.logging.LoggingFilter:7162 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:54:53  [ org.apache.mina.filter.codec.ProtocolCodecFilter:7163 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:54:53  [ org.apache.mina.filter.logging.LoggingFilter:7181 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:54:55  [ org.apache.mina.filter.logging.LoggingFilter:8938 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 10 00 00 01 00]
+2018-02-06 13:54:55  [ org.apache.mina.filter.codec.ProtocolCodecFilter:8938 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:54:59  [ org.apache.mina.filter.logging.LoggingFilter:12917 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=1024: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:54:59  [ org.apache.mina.filter.codec.ProtocolCodecFilter:12917 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:54:59  [ org.apache.mina.filter.logging.LoggingFilter:12918 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:55:01  [ org.apache.mina.filter.logging.LoggingFilter:15286 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 10 00 00 01 00]
+2018-02-06 13:55:01  [ org.apache.mina.filter.codec.ProtocolCodecFilter:15287 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:55:02  [ org.apache.mina.filter.logging.LoggingFilter:16518 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 00 00 00 05 10 00 00 02 00]
+2018-02-06 13:55:02  [ org.apache.mina.filter.codec.ProtocolCodecFilter:16519 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:58:43  [ com.dgserver.server.app.ServerApp:236986 ]  ****************App stop**************
+2018-02-06 13:58:46  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 13:58:46  [ com.dgserver.server.net.ServerManager:87 ]  PORT : 9999
+2018-02-06 13:58:52  [ org.apache.mina.filter.logging.LoggingFilter:5895 ]  CREATED
+2018-02-06 13:58:52  [ org.apache.mina.filter.logging.LoggingFilter:5895 ]  OPENED
+2018-02-06 13:58:54  [ org.apache.mina.filter.logging.LoggingFilter:7320 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 13:58:54  [ org.apache.mina.filter.codec.ProtocolCodecFilter:7321 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:58:54  [ org.apache.mina.filter.logging.LoggingFilter:7334 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:58:57  [ org.apache.mina.filter.logging.LoggingFilter:11023 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=2048: 00 00 00 05 10 00 00 01 00]
+2018-02-06 13:58:57  [ org.apache.mina.filter.codec.ProtocolCodecFilter:11024 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:58:57  [ org.apache.mina.filter.logging.LoggingFilter:11025 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:59:02  [ org.apache.mina.filter.logging.LoggingFilter:16240 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 10 00 00 02 00]
+2018-02-06 13:59:02  [ org.apache.mina.filter.codec.ProtocolCodecFilter:16240 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:59:02  [ org.apache.mina.filter.logging.LoggingFilter:16241 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:59:05  [ org.apache.mina.filter.logging.LoggingFilter:18258 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=1024: 00 00 00 05 10 00 00 01 00]
+2018-02-06 13:59:05  [ org.apache.mina.filter.codec.ProtocolCodecFilter:18259 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:59:05  [ org.apache.mina.filter.logging.LoggingFilter:18259 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:59:06  [ org.apache.mina.filter.logging.LoggingFilter:19930 ]  RECEIVED: HeapBuffer[pos=0 lim=9 cap=512: 00 00 00 05 10 00 00 02 00]
+2018-02-06 13:59:06  [ org.apache.mina.filter.codec.ProtocolCodecFilter:19930 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 13:59:06  [ org.apache.mina.filter.logging.LoggingFilter:19931 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 13:59:43  [ com.dgserver.server.app.ServerApp:56271 ]  ****************App stop**************
+2018-02-06 18:01:23  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 18:01:24  [ com.dgserver.server.net.ServerManager:822 ]  PORT : 9999
+2018-02-06 18:01:27  [ org.apache.mina.filter.logging.LoggingFilter:3629 ]  CREATED
+2018-02-06 18:01:27  [ org.apache.mina.filter.logging.LoggingFilter:3630 ]  OPENED
+2018-02-06 18:01:28  [ org.apache.mina.filter.logging.LoggingFilter:4515 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:01:28  [ org.apache.mina.filter.codec.ProtocolCodecFilter:4515 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 18:01:28  [ org.apache.mina.filter.logging.LoggingFilter:4578 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:01:29  [ org.apache.mina.filter.logging.LoggingFilter:5906 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:01:29  [ org.apache.mina.filter.codec.ProtocolCodecFilter:5907 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 18:01:29  [ org.apache.mina.filter.logging.LoggingFilter:5908 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:01:33  [ org.apache.mina.filter.logging.LoggingFilter:9384 ]  CLOSED
+2018-02-06 18:01:33  [ com.dgserver.server.net.ServerManager:9403 ]  user leave call back
+2018-02-06 18:01:33  [ com.dgserver.server.net.ServerManager:9404 ]  RemovePlayerBySId : 1
+2018-02-06 18:04:46  [ com.dgserver.server.app.ServerApp:203131 ]  ****************App stop**************
+2018-02-06 18:05:28  [ com.dgserver.server.app.ServerApp:0 ]  ****************App start**************
+2018-02-06 18:05:28  [ com.dgserver.server.net.ServerManager:120 ]  PORT : 9999
+2018-02-06 18:05:43  [ org.apache.mina.filter.logging.LoggingFilter:14664 ]  CREATED
+2018-02-06 18:05:43  [ org.apache.mina.filter.logging.LoggingFilter:14665 ]  OPENED
+2018-02-06 18:05:43  [ org.apache.mina.filter.logging.LoggingFilter:15367 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:05:43  [ org.apache.mina.filter.codec.ProtocolCodecFilter:15367 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 18:05:43  [ org.apache.mina.filter.logging.LoggingFilter:15404 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:05:44  [ org.apache.mina.filter.logging.LoggingFilter:16256 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:05:44  [ org.apache.mina.filter.codec.ProtocolCodecFilter:16256 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 18:05:44  [ org.apache.mina.filter.logging.LoggingFilter:16258 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:06:10  [ org.apache.mina.filter.logging.LoggingFilter:42002 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=1024: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:06:10  [ org.apache.mina.filter.codec.ProtocolCodecFilter:42002 ]  Processing a MESSAGE_RECEIVED for session 1
+2018-02-06 18:06:10  [ org.apache.mina.filter.logging.LoggingFilter:42003 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:06:49  [ org.apache.mina.filter.logging.LoggingFilter:81194 ]  CLOSED
+2018-02-06 18:06:49  [ com.dgserver.server.net.ServerManager:81196 ]  user leave call back
+2018-02-06 18:06:49  [ com.dgserver.server.net.ServerManager:81197 ]  RemovePlayerBySId : 1
+2018-02-06 18:06:56  [ org.apache.mina.filter.logging.LoggingFilter:87738 ]  CREATED
+2018-02-06 18:06:56  [ org.apache.mina.filter.logging.LoggingFilter:87755 ]  OPENED
+2018-02-06 18:06:57  [ org.apache.mina.filter.logging.LoggingFilter:88522 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:06:57  [ org.apache.mina.filter.codec.ProtocolCodecFilter:88522 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 18:06:57  [ org.apache.mina.filter.logging.LoggingFilter:88523 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:07:00  [ org.apache.mina.filter.logging.LoggingFilter:91736 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:07:00  [ org.apache.mina.filter.codec.ProtocolCodecFilter:91736 ]  Processing a MESSAGE_RECEIVED for session 2
+2018-02-06 18:07:00  [ org.apache.mina.filter.logging.LoggingFilter:91737 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:07:18  [ org.apache.mina.filter.logging.LoggingFilter:109442 ]  CLOSED
+2018-02-06 18:07:18  [ com.dgserver.server.net.ServerManager:109443 ]  user leave call back
+2018-02-06 18:07:18  [ com.dgserver.server.net.ServerManager:109443 ]  RemovePlayerBySId : 2
+2018-02-06 18:07:22  [ org.apache.mina.filter.logging.LoggingFilter:114240 ]  CREATED
+2018-02-06 18:07:22  [ org.apache.mina.filter.logging.LoggingFilter:114257 ]  OPENED
+2018-02-06 18:07:23  [ org.apache.mina.filter.logging.LoggingFilter:115056 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:07:23  [ org.apache.mina.filter.codec.ProtocolCodecFilter:115057 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 18:07:23  [ org.apache.mina.filter.logging.LoggingFilter:115058 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:07:25  [ org.apache.mina.filter.logging.LoggingFilter:116534 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:07:25  [ org.apache.mina.filter.codec.ProtocolCodecFilter:116534 ]  Processing a MESSAGE_RECEIVED for session 3
+2018-02-06 18:07:25  [ org.apache.mina.filter.logging.LoggingFilter:116535 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:07:30  [ org.apache.mina.filter.logging.LoggingFilter:122347 ]  CLOSED
+2018-02-06 18:07:30  [ com.dgserver.server.net.ServerManager:122347 ]  user leave call back
+2018-02-06 18:07:30  [ com.dgserver.server.net.ServerManager:122349 ]  RemovePlayerBySId : 3
+2018-02-06 18:08:30  [ org.apache.mina.filter.logging.LoggingFilter:182319 ]  CREATED
+2018-02-06 18:08:30  [ org.apache.mina.filter.logging.LoggingFilter:182338 ]  OPENED
+2018-02-06 18:08:31  [ org.apache.mina.filter.logging.LoggingFilter:182956 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:08:31  [ org.apache.mina.filter.codec.ProtocolCodecFilter:182956 ]  Processing a MESSAGE_RECEIVED for session 4
+2018-02-06 18:08:31  [ org.apache.mina.filter.logging.LoggingFilter:182957 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:08:32  [ org.apache.mina.filter.logging.LoggingFilter:183756 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:08:32  [ org.apache.mina.filter.codec.ProtocolCodecFilter:183757 ]  Processing a MESSAGE_RECEIVED for session 4
+2018-02-06 18:08:32  [ org.apache.mina.filter.logging.LoggingFilter:183757 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:09:33  [ org.apache.mina.filter.logging.LoggingFilter:244430 ]  CLOSED
+2018-02-06 18:09:33  [ com.dgserver.server.net.ServerManager:244430 ]  user leave call back
+2018-02-06 18:09:33  [ com.dgserver.server.net.ServerManager:244430 ]  RemovePlayerBySId : 4
+2018-02-06 18:10:25  [ org.apache.mina.filter.logging.LoggingFilter:296836 ]  CREATED
+2018-02-06 18:10:25  [ org.apache.mina.filter.logging.LoggingFilter:296856 ]  OPENED
+2018-02-06 18:10:26  [ org.apache.mina.filter.logging.LoggingFilter:297492 ]  RECEIVED: HeapBuffer[pos=0 lim=17 cap=2048: 00 00 00 0D 00 00 01 00 00 00 00 00 00 00 00 00...]
+2018-02-06 18:10:26  [ org.apache.mina.filter.codec.ProtocolCodecFilter:297492 ]  Processing a MESSAGE_RECEIVED for session 5
+2018-02-06 18:10:26  [ org.apache.mina.filter.logging.LoggingFilter:297497 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:10:26  [ org.apache.mina.filter.logging.LoggingFilter:298269 ]  RECEIVED: HeapBuffer[pos=0 lim=33 cap=2048: 00 00 00 1D 10 00 00 01 00 00 00 00 01 00 00 09...]
+2018-02-06 18:10:26  [ org.apache.mina.filter.codec.ProtocolCodecFilter:298269 ]  Processing a MESSAGE_RECEIVED for session 5
+2018-02-06 18:10:26  [ org.apache.mina.filter.logging.LoggingFilter:298270 ]  SENT: HeapBuffer[pos=0 lim=0 cap=0: empty]
+2018-02-06 18:10:30  [ org.apache.mina.filter.logging.LoggingFilter:302365 ]  CLOSED
+2018-02-06 18:10:30  [ com.dgserver.server.net.ServerManager:302366 ]  user leave call back
+2018-02-06 18:10:30  [ com.dgserver.server.net.ServerManager:302366 ]  RemovePlayerBySId : 5
+2018-02-06 18:10:32  [ com.dgserver.server.app.ServerApp:304019 ]  ****************App stop**************
