@@ -204,6 +204,8 @@ public class Redeem {
 		
 	}
 	
+	
+	
 	public static void ShowTime(){
 		Date date = new Date();
 		long times = date.getTime();//时间戳
