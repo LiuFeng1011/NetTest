@@ -47,8 +47,8 @@ public class Redeem {
 		String result = "";
 		
 		for(int i = 0 ;i < datas.length ; i ++){
-			int n = (datas[i] & 0xffff + slength);
-			System.out.println("n : " + ((int)(datas[i]) & 0xffff));
+			int n = (datas[i] & 0xff + slength);
+			System.out.println("n : " + ((int)(datas[i]) & 0xff));
 			int m1 = n % slength ;
 			result+= s.charAt(m1);
 			int m2 = (int)(n / slength);
