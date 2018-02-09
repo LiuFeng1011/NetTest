@@ -9,6 +9,8 @@ import com.dreamgear.nettest.net.request.EntryGameReq;
 import com.dreamgear.nettest.net.request.TestAReq;
 import com.dreamgear.nettest.net.response.EntryGameResp;
 import com.dreamgear.nettest.net.response.TestAResp;
+import com.dreamgear.nettest.player.GamePlayerManager;
+import com.dreamgear.nettest.player.PlayerManager;
 
 public class EntryGameServer implements BaseServer {
 	public int GetProtocol() {
@@ -23,8 +25,17 @@ public class EntryGameServer implements BaseServer {
 
 	public BaseMessage handle(IoSession is,BaseMessage request) {
 		System.out.println("EntryGameServer");
-		EntryGameResp resp = new EntryGameResp();
 		
+		PlayerManager pm = GamePlayerManager.GetInstance().Login(request.getUserInfo().getUid());
+		
+		
+		//服务器主动下发一条数据
+		TestAResp tar = new TestAResp(1,9,"登录成功");
+		tar.setUserInfo(request.getUserInfo());
+		tar.Send();
+		
+
+		EntryGameResp resp = new EntryGameResp();
 		return resp;
 	}
 }
