@@ -1,7 +1,7 @@
 package com.dreamgear.nettest;
 import java.util.Date;
 
-public class Base24Test {
+public class Base24Happer {
 	static String table = "abcdefABCDEFGHIJK12345";
 	
 	public static void main( String[] args ) throws Exception

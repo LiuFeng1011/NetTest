@@ -1,12 +1,8 @@
 package com.dreamgear.nettest;
 import java.util.Date;
 
-import com.alibaba.fastjson.JSON;
 public class Redeem {
 	
-	/**
-	 * 
-	 */
 	static String stringtable = "abcdefghijkmnpqrstuvwxyz23456789";
 	final static String password = "dak3le2";
 	
@@ -17,66 +13,18 @@ public class Redeem {
     {
 		ShowTime();
 		System.out.println("=======================");
-		//create((byte)123,100000,12,password);
-		System.out.println(Math.pow(16, 12));
+		create((byte)1,10000,12,password);
 
-		ByteHapper byteHapper = ByteHapper.CreateBytes(4).AppendNumber(79436548);
-		
-		String b24 =enBase24(byteHapper.bytes);
-
-		System.out.println("b24 : " + b24);
-		
-		byte[] deb24 = deBase24(b24);
-		int val = ((int)deb24[0] << 32) + ((int)deb24[1] << 16) + ((int)deb24[2] << 8) + (int)deb24[3];
-		System.out.println("val : " + val);
-		
-		System.out.println("deb24 : " + deb24[3] +  " 2 : " + deb24[2]+  " 1 : " + deb24[1]+  " 0 : " + deb24[0]);
-		
-//		VerifyCode("sumic8pekj8a");		
-//		VerifyCode("4a36g5npamna");
-//		VerifyCode("4a36g5naamna");
-//		VerifyCode("dafe33234g435");
-//		VerifyCode("ga8ehxsq6dja");
+		VerifyCode("c8dksqjamaba");		
+		VerifyCode("4a36g5npamna");
+		VerifyCode("4a36g5naamna");
+		VerifyCode("dafe33234g435");
+		VerifyCode("ga8ehxsq6dja");
     }
 
-	static String s = "ABCDEFGHJKLMNPQRSTUVWXYZ";
-	public static String enBase24(byte[] datas){
-		
-		int slength = s.length();
-		
-		String result = "";
-		
-		for(int i = 0 ;i < datas.length ; i ++){
-			int n = (datas[i] & 0xff + slength);
-			System.out.println("n : " + ((int)(datas[i]) & 0xff));
-			int m1 = n % slength ;
-			result+= s.charAt(m1);
-			int m2 = (int)(n / slength);
-			result+= s.charAt(m2);
-		}
-		
-		return result;
-	}
-
-	public static byte[] deBase24(String base24String){
-		int slength = base24String.length() / 2;
-		byte[] bytes = new byte[slength];
-		
-		for(int i = 0 ;i < slength ; i ++){
-			byte index1 = (byte) ((byte)s.indexOf(base24String.charAt(i*2)));
-			byte index2 = (byte) ((byte)s.indexOf(base24String.charAt(i*2+1)));
-			byte n = (byte)(index1 + index2 * s.length() - s.length());
-			System.out.println((int)n);
-			bytes[i] = n;
-		}
-		
-		return bytes;
-	}
-	
 	/**
 	 * 生成兑换码
 	 * 这里每一次生成兑换码的最大数量为int的最大值即2147483647
-	 * 因为至少有一位随机码，所以输入的兑换码的最小长度为 l*5/8 > 6 即
 	 * @param time
 	 * @param id
 	 * @param count
@@ -85,8 +33,8 @@ public class Redeem {
 	public static byte[] create(byte groupid,int codecount,int codelength,String password) {
 		//8位的数据总长度
 		int fullcodelength = codelength * convertByteCount / 8; 
-		//随机码对时间和id同时做异或处理，应该不会出现重复情况
-		//时间1，id4，随机码n,校验码1 (codelength*6 - 11*8) / 8
+		//随机码对时间和id同时做异或处理
+		//类型1，id4，随机码n,校验码1 
 		int randcount = fullcodelength - 6;//随机码有多少个
 		
 		//如果随机码小于0 不生成
@@ -136,11 +84,12 @@ public class Redeem {
 				}
 			}
 			
-			String s = "";
+			StringBuilder result = new StringBuilder();
 			//编辑最终数组生成字符串
 			for(int j = 0 ; j < bytes.length ; j ++) {
-				s += stringtable.charAt(bytes[j]);
+				result.append(stringtable.charAt(bytes[j]));
 			}
+			System.out.println("out string : " + result.toString());
 		}
 		ShowTime();
 		return null;
@@ -209,6 +158,6 @@ public class Redeem {
 	public static void ShowTime(){
 		Date date = new Date();
 		long times = date.getTime();//时间戳
-		System.out.println(times);
+		System.out.println("time  : " + times);
 	}
 }

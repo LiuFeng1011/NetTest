@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.dgserver.server.net.BaseServer;
 import com.dgserver.server.net.ServerManager;
+import com.dreamgear.http.HttpServer;
 import com.dreamgear.nettest.net.NetProtocol;
 import com.dreamgear.nettest.net.server.EntryGameServer;
 import com.dreamgear.nettest.net.server.TestAServer;
@@ -30,6 +31,9 @@ public class GameWorld {
 			//网络服务 端口号
 			server = new ServerManager(port);
 			server.Start();
+			
+			//开启http监听
+			HttpServer.getInstance().run(); 
 			
 			//注册游戏业务服务
 			server.setServerList(RegistServer());
